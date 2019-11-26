@@ -27,6 +27,7 @@ table {
   margin-right: 20px;
   border: thin solid black;
   caption-side: bottom;
+  border-spacing: collapse;
 }
 td, th {
   border: thin dotted grey;
@@ -35,4 +36,31 @@ td, th {
 caption {
   font-style: italic;
   padding-top: 8px;
+}
+th {
+  background-color: #cc6600;
+}
+tr:nth-child(3) {
+  background-color: #fcba7a;
+}
+tr:nth-child(5) {
+  background-color: #fcba7a;
+}
+tr:nth-child(8) {
+  background-color: #fcba7a;
+}
+/* .cellcolor {
+  background-color: #fcba7a;
+} */
+.center table tr th {
+  background-color: #fff;
+  font-style: normal;
+  font-weight: normal;
+}
+
+li {
+  list-style-image: url(./images/backpack.gif);
+  padding-top: 5px;
+  margin-left: 20px;
+
 }
